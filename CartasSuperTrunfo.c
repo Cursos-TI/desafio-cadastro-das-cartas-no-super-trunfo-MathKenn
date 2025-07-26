@@ -7,7 +7,25 @@
 //Teste larissa
 
 int main() {
+     
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
+    
+    char Estado1 = 'A';
+    char Código da cidade1[3] = 'A01';
+    char Nome da Cidade1[20] = 'Messias';
+    int População1 = '12325000';
+    float Área1 = '1521.11';
+    float PIB1 = '699.28';
+    int Pontos Turísticos1 = '50';
+
+    char Estado2 = 'B';
+    char Código da cidade2[3] = 'B01';
+    char Nome da Cidade2[20] = 'Bariloche';
+    int População2 = '6748000';
+    float Área2 = '1200.25';
+    float PIB2 = '300.50';
+    int Pontos Turísticos2 = '30';
+    
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
     // Cadastro das Cartas:
