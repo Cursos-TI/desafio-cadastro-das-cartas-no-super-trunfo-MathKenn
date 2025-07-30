@@ -9,22 +9,75 @@
 int main() {
      
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    
-    char Estado1 = 'A';
-    char Código da cidade1[3] = 'A01';
-    char Nome da Cidade1[20] = 'Messias';
-    int População1 = '12325000';
-    float Área1 = '1521.11';
-    float PIB1 = '699.28';
-    int Pontos Turísticos1 = '50';
 
-    char Estado2 = 'B';
-    char Código da cidade2[3] = 'B01';
-    char Nome da Cidade2[20] = 'Bariloche';
-    int População2 = '6748000';
-    float Área2 = '1200.25';
-    float PIB2 = '300.50';
-    int Pontos Turísticos2 = '30';
+    int Populacao1, NumeroDePontosTuristicos1;
+    float Area1, PIB1;
+    char Estado1, CodigoDaCarta1, NomeDaCidade1;
+
+    printf("Digite o nome do Estado: \n");
+    scanf("%s", &Estado1);
+
+    printf("Digite o Código da carta: \n");
+    scanf("%s", &CodigoDaCarta1);
+
+    printf("Digite o Nome da Cidade: \n");
+    scanf("%s", &NomeDaCidade1);
+
+    printf("Informe a População: \n");
+    scanf("%d", &Populacao1);
+
+    printf("Digite a Área: \n");
+    scanf("%f", &Area1);
+
+    printf("Digite o PIB: \n");
+    scanf("%f", &PIB1);
+
+    printf("Digite o numero de pontos turisticos: \n");
+    scanf("%d", &NumeroDePontosTuristicos1);
+    
+    printf("Carta 1: \n");
+    printf("Código da carta: %s \n", CodigoDaCarta1);
+    printf("Nome da Cidade: %s \n", NomeDaCidade1);
+    printf("População: %d \n", Populacao1);
+    printf("Área: %.2f \n", Area1);
+    printf("PIB: %.2f \n", PIB1);
+    printf("Numero de Pontos Turisticos: %d", NumeroDePontosTuristicos1);
+
+
+    int Populacao2, NumeroDePontosTuristicos2;
+    float Area2, PIB2;
+    char Estado2, CodigoDaCarta2, NomeDaCidade2;
+
+    printf("Vamos cadastrar a segunda carta \n");
+    printf("Digite o nome do Estado: \n");
+    scanf("%s", &Estado2);
+
+    printf("Digite o Código da carta: \n");
+    scanf("%s", &CodigoDaCarta2);
+
+    printf("Digite o Nome da Cidade: \n");
+    scanf("%s", &NomeDaCidade2);
+
+    printf("Informe a População: \n");
+    scanf("%d", &Populacao2);
+
+    printf("Digite a Área: \n");
+    scanf("%f", &Area2);
+
+    printf("Digite o PIB: \n");
+    scanf("%f", &PIB2);
+
+    printf("Digite o numero de pontos turisticos: \n");
+    scanf("%d", &NumeroDePontosTuristicos2);
+    
+    printf("Carta 2: \n");
+    printf("Código da carta: %s \n", CodigoDaCarta2);
+    printf("Nome da Cidade: %s \n", NomeDaCidade2);
+    printf("População: %d \n", Populacao2);
+    printf("Área: %.2f \n", Area2);
+    printf("PIB: %.2f \n", PIB2);
+    printf("Numero de Pontos Turisticos: %d", NumeroDePontosTuristicos2);
+
     
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
