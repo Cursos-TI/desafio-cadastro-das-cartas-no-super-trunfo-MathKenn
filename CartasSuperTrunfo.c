@@ -6,8 +6,6 @@
 // Siga os comentários para implementar cada parte do desafio.
 //Teste
 
-#include <stdio.h>
-
 int main(){
     int Populacao1, NumeroDePontosTuristicos1;
     float Area1, PIB1;
