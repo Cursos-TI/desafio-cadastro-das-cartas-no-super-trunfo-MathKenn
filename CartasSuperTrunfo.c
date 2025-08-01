@@ -4,15 +4,14 @@
 // Tema 1 - Cadastro das Cartas
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+//Teste
 
-int main() {
-     
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
+#include <stdio.h>
 
+int main(){
     int Populacao1, NumeroDePontosTuristicos1;
     float Area1, PIB1;
-    char Estado1, CodigoDaCarta1, NomeDaCidade1;
+    char Estado1[30], CodigoDaCarta1[10], NomeDaCidade1[50];
 
     printf("Digite o nome do Estado: \n");
     scanf("%s", &Estado1);
@@ -25,7 +24,7 @@ int main() {
 
     printf("Informe a População: \n");
     scanf("%d", &Populacao1);
-
+    
     printf("Digite a Área: \n");
     scanf("%f", &Area1);
 
@@ -34,19 +33,10 @@ int main() {
 
     printf("Digite o numero de pontos turisticos: \n");
     scanf("%d", &NumeroDePontosTuristicos1);
-    
-    printf("Carta 1: \n");
-    printf("Código da carta: %s \n", CodigoDaCarta1);
-    printf("Nome da Cidade: %s \n", NomeDaCidade1);
-    printf("População: %d \n", Populacao1);
-    printf("Área: %.2f \n", Area1);
-    printf("PIB: %.2f \n", PIB1);
-    printf("Numero de Pontos Turisticos: %d", NumeroDePontosTuristicos1);
-
 
     int Populacao2, NumeroDePontosTuristicos2;
     float Area2, PIB2;
-    char Estado2, CodigoDaCarta2, NomeDaCidade2;
+    char Estado2[30], CodigoDaCarta2[10], NomeDaCidade2[50];
 
     printf("Vamos cadastrar a segunda carta \n");
     printf("Digite o nome do Estado: \n");
@@ -70,6 +60,14 @@ int main() {
     printf("Digite o numero de pontos turisticos: \n");
     scanf("%d", &NumeroDePontosTuristicos2);
     
+    printf("Carta 1: \n");
+    printf("Codigo da carta: %s \n", CodigoDaCarta1);
+    printf("Nome da Cidade: %s \n", NomeDaCidade1);
+    printf("População: %d \n", Populacao1);
+    printf("Área: %.2f \n", Area1);
+    printf("PIB: %.2f \n", PIB1);
+    printf("Numero de Pontos Turisticos: %d", NumeroDePontosTuristicos1);
+
     printf("Carta 2: \n");
     printf("Código da carta: %s \n", CodigoDaCarta2);
     printf("Nome da Cidade: %s \n", NomeDaCidade2);
