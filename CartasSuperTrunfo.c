@@ -4,7 +4,7 @@
 // Tema 1 - Cadastro das Cartas
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
-//Teste
+//Entrada de códigos e desenvolvimento para inserção dos dados das cartas:
 
 int main(){
     int Populacao1, NumeroDePontosTuristicos1;
@@ -57,6 +57,8 @@ int main(){
 
     printf("Digite o numero de pontos turisticos: \n");
     scanf("%d", &NumeroDePontosTuristicos2);
+
+// Agora, de forma organizada, a identificação dos valores inseridos. 
     
     printf("Carta 1: \n");
     printf("Codigo da carta: %s \n", CodigoDaCarta1);
